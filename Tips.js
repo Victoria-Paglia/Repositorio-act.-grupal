@@ -7,9 +7,19 @@ document.addEventListener('DOMContentLoaded',
         tips.id= "Tips";
 
         tips.innerHTML= "Tips cuidados por coronavirus"
-        tips.innerHTML= "1- Quedate en casa lo maximo posible"
-        tips.innerHTML= "2- Manten el distanciamiento social"
-        tips.innerHTML= "3- Lavate las manos con frecuencia"
-        tips.innerHTML= "4- Tose cubriendote con el codo"
-        tips.innerHTML= "5- Llama si tienes síntomas"
+        
+        let tip1 = "1- Quedate en casa lo maximo posible"
+        tips.innerHTML= tips.innerHTML + "<br/>" + tip1
+
+        let tip2 = "2- Manten el distanciamiento social"
+        tips.innerHTML= tips.innerHTML + "<br/>" + tip2
+
+        let tip3 ="3- Lavate las manos con frecuencia"
+        tips.innerHTML= tips.innerHTML + "<br/>" + tip3
+
+        let tip4 = "4- Tose cubriendote con el codo"
+        tips.innerHTML= tips.innerHTML + "<br/>" + tip4
+
+        let tip5 = "5- Llama si tienes síntomas"
+        tips.innerHTML= tips.innerHTML + "<br/>" + tip5
     })
